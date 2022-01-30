@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sudoku</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div data-sudoku="true">
+        <template data-sudoku-template="row">
+            <tr></tr>
+        </template>
+        <template data-sudoku-template="cell">
+            <td>
+                <input type="number" data-sudoku-cell="true" data-sudoku-cell-column="0" data-sudoku-cell-row="0" data-sudoku-cell-area="0">
+            </td>
+        </template>
+
+        <table data-sudoku-table="true"></table>
+
+        <button type="button" data-sudoku-button="verify">Verify</button>
+        <button type="button" data-sudoku-button="refresh">Refresh</button>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>

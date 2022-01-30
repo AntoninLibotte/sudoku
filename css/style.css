@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+input {
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding: 0;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 380px;
+    font-family: 'Roboto', sans-serif;
+}
+
+table {
+    border-spacing: 0;
+    border: solid 3px;
+    margin: auto;
+}
+
+td {
+    padding: 0;
+}
+
+input {
+    border: solid 1px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+}
+
+.edge-left {
+    border-left: solid 2px;
+}
+
+.edge-right {
+    border-right: solid 2px;
+}
+
+.edge-top {
+    border-top: solid 2px;
+}
+
+.edge-bottom {
+    border-bottom: solid 2px;
+}
+
+.prefilled {
+    font-weight: 700;
+}
+
+.js-highlighted-focus-area {
+    background-color: #eee;
+}
+
+.js-highlighted-focus-row,
+.js-highlighted-focus-column {
+    background-color: #ccc;
+}
+
+:focus {
+    background-color: #aaa;
+}
+
+.js-conflict {
+    color: red;
+    border-color: black;
+}
+
+.js-guessing {
+    font-size: 75%
+}
